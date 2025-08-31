@@ -912,7 +912,7 @@
       async function fetchJobData() {
         try {
           console.log('开始获取API数据...');
-          const response = await fetch('https://f24b6d1c5fc6.ngrok-free.app/api/feishu-data');
+          const response = await fetch('http://127.0.0.1:5002/api/feishu-data');
           const data = await response.json();
           console.log('API数据获取成功:', data);
           
